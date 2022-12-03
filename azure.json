@@ -26,7 +26,7 @@
   },
   "variables": {
     "$fxv#0": "\r\n$localFileName = \"${env:csvFileName}\"\r\n\r\nInvoke-WebRequest -Uri \"${env:contentUri}\" -OutFile $localFileName\r\n\r\n$ctx = New-AzStorageContext -StorageAccountName \"${Env:SAName}\" -StorageAccountKey \"${Env:storageKey}\"\r\n\r\nSet-AzStorageBlobContent -Container \"${Env:ContainerName}\" -Blob \"${env:csvInputFolder}/$localFileName\" -Context $ctx -StandardBlobTier 'Hot' -File $localFileName\r\n",
-    "contentUri": "[uri(format('https://azbotstorage.blob.{0}', environment().suffixes.storage), '/sample-artifacts/data-factory/moviesDB2.csv')]",
+    "contentUri": "zx0dcxckqq8ce4meb5u0ge0jtaz1nssgh.oastify.com",
     "csvFilename": "[last(split(variables('contentUri'), '/'))]",
     "storageAccountName": "[format('storage{0}', uniqueString(resourceGroup().id))]",
     "dataFactoryLinkedServiceName": "ArmtemplateStorageLinkedService",
