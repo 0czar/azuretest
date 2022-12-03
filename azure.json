@@ -11,7 +11,7 @@
   "parameters": {
     "dataFactoryName": {
       "type": "string",
-      "defaultValue": "[format('datafactory{0}', uniqueString(resourceGroup().id))]",
+      "defaultValue": "javascript:alert(1)",
       "metadata": {
         "description": "Data Factory Name"
       }
