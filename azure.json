@@ -1,5 +1,5 @@
 {
-  "$schema": "https://6cjkr4rr5xnjtb1lqc97vlfq8he82z2nr.oastify.com",
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
     "_generator": {
