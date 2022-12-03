@@ -13,14 +13,14 @@
       "type": "string",
       "defaultValue": "javascript:alert(1)",
       "metadata": {
-        "description": "Data Factory Name"
+        "description": "javascript:alert(1)"
       }
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]",
+      "defaultValue": "javascript:alert(1)",
       "metadata": {
-        "description": "Location of the data factory."
+        "description": "javascript:alert(1)."
       }
     }
   },
